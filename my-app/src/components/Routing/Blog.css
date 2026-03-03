@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../../Assets/Bhakti..png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+
+  .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* optional - dark overlay */
+  }
+  
+  .main-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+  }
+  
+  

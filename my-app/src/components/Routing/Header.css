@@ -1,0 +1,39 @@
+/* .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: white;
+  }
+  
+  .nav-menu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+  }
+  
+  .nav-menu li {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #ffffff;
+    border-radius: 6px;
+    list-style: none;
+    padding: 10px 0;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+    z-index: 1000;
+  }
+  
+  .submenu li {
+    padding: 8px 20px;
+  }
+  
+  .submenu li:hover {
+    background: #f0f0f0;
+  }
+   */

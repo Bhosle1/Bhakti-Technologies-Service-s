@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../../Assets/Bhakti..png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+  }
+
+  .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* optional - dark overlay */
+  }
+  
+  .main-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+  }
+
+
+  /* contact */
+
+  .two-col-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    gap: 40px;
+    
+    margin: auto;
+  }
+  
+  .left-col, .right-col {
+    flex: 1;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  }
+  
+  .left-col h2, .right-col h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    
+  }
+  
+  .left-col p, .right-col p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Responsive */
+  @media (max-width: 900px) {
+    .two-col-section {
+      flex-direction: column;
+    }
+  }
+
+/* form */
+
+/* Form Styling */
+.contact-right {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-right h2 {
+  margin-bottom: 10px;
+  color: #000000;
+  text-align: center;
+  
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-right input,
+.contact-right select,
+.contact-right textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.contact-right textarea {
+  height: 120px;
+}
+
+.contact-right button {
+  padding: 12px;
+  background: #007bff;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-right button:hover {
+  background: #0056b3;
+}
+  
+  
+  
+  

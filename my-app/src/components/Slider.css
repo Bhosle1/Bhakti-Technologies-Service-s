@@ -1,0 +1,40 @@
+/* .slider-img {
+    height: 550px !important;
+    width: 100%;
+    object-fit: cover !important;
+    display: block;
+  } */
+
+  .slider-img {
+    height: 550px !important;
+    width: 100%;
+    /* object-fit: cover; */
+    display: block;
+    position: relative;
+  }
+  
+  /* ✅ Overlay effect */
+  .slider-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 550px;
+    /* background: rgba(0, 0, 0, 0.5); black transparent overlay */
+    z-index: 1;
+  }
+  
+  /* ✅ Caption text above overlay */
+  .carousel-caption {
+    position: absolute;
+    z-index: 2;
+  }
+  
+  /* ✅ Optional: make text white and glowing */
+  .carousel-caption h3,
+  .carousel-caption p {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  }
+  
+  
